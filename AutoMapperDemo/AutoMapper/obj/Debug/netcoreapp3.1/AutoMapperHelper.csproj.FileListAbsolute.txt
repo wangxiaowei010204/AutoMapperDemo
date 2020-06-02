@@ -1,0 +1,9 @@
+D:\wangxw\source\demo\AutoMapperDemo\AutoMapper\bin\Debug\netcoreapp3.1\AutoMapperHelper.deps.json
+D:\wangxw\source\demo\AutoMapperDemo\AutoMapper\bin\Debug\netcoreapp3.1\AutoMapperHelper.dll
+D:\wangxw\source\demo\AutoMapperDemo\AutoMapper\obj\Debug\netcoreapp3.1\AutoMapperHelper.AssemblyInfoInputs.cache
+D:\wangxw\source\demo\AutoMapperDemo\AutoMapper\obj\Debug\netcoreapp3.1\AutoMapperHelper.AssemblyInfo.cs
+D:\wangxw\source\demo\AutoMapperDemo\AutoMapper\bin\Debug\netcoreapp3.1\AutoMapperHelper.pdb
+D:\wangxw\source\demo\AutoMapperDemo\AutoMapper\obj\Debug\netcoreapp3.1\AutoMapperHelper.dll
+D:\wangxw\source\demo\AutoMapperDemo\AutoMapper\obj\Debug\netcoreapp3.1\AutoMapperHelper.pdb
+D:\wangxw\source\demo\AutoMapperDemo\AutoMapper\obj\Debug\netcoreapp3.1\AutoMapperHelper.csprojAssemblyReference.cache
+D:\wangxw\source\demo\AutoMapperDemo\AutoMapper\obj\Debug\netcoreapp3.1\AutoMapperHelper.csproj.CoreCompileInputs.cache
