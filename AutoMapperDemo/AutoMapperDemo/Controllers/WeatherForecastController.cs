@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using AutoMapperHelper.AutoMapper;
+using Mapper.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -51,7 +51,11 @@ namespace AutoMapperDemo.Controllers
                 Money = 15.0m
             };
 
-            return model.MapTo<FooDto>();
+            var dto= model.MapTo<FooDto>();
+
+            Console.WriteLine("Total memory: {0:###,###,###,##0} bytes", GC.GetTotalMemory(true));
+
+            return dto;
         }
     }
 }

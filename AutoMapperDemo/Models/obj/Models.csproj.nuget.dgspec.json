@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\wangxw\\source\\demo\\AutoMapperDemo\\Models\\Models.csproj": {}
+    "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapperDemo\\Models\\Models.csproj": {}
   },
   "projects": {
-    "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapper\\AutoMapperHelper.csproj": {
+    "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapperDemo\\AutoMapper\\AutoMapperHelper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapper\\AutoMapperHelper.csproj",
+        "projectUniqueName": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapperDemo\\AutoMapper\\AutoMapperHelper.csproj",
         "projectName": "AutoMapperHelper",
-        "projectPath": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapper\\AutoMapperHelper.csproj",
+        "projectPath": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapperDemo\\AutoMapper\\AutoMapperHelper.csproj",
         "packagesPath": "C:\\Users\\yalla215\\.nuget\\packages\\",
-        "outputPath": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapper\\obj\\",
+        "outputPath": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapperDemo\\AutoMapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -78,14 +78,14 @@
         }
       }
     },
-    "D:\\wangxw\\source\\demo\\AutoMapperDemo\\Models\\Models.csproj": {
+    "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapperDemo\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapperDemo\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\Models\\Models.csproj",
+        "projectPath": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapperDemo\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\yalla215\\.nuget\\packages\\",
-        "outputPath": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\Models\\obj\\",
+        "outputPath": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapperDemo\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -105,8 +105,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapper\\AutoMapperHelper.csproj": {
-                "projectPath": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapper\\AutoMapperHelper.csproj"
+              "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapperDemo\\AutoMapper\\AutoMapperHelper.csproj": {
+                "projectPath": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapperDemo\\AutoMapper\\AutoMapperHelper.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zBXBxwC18+5JMgwCnrr3BZn3oOenI1q7rneXJUs9+KtgE2lDrEpLt/8CyzSDMxde0XfYzzsmKl75ZzQHG9+qNg==",
+  "dgSpecHash": "QYYk0PxbD59BZJBrXKkyZ7HdpU4LJtF+emQAMPn7aOLgh3pG3GEavfNOEkY0dJ12zKZo+HZG+qGv8SubZ0K7zw==",
   "success": true,
-  "projectFilePath": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapper\\AutoMapperHelper.csproj",
+  "projectFilePath": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapperDemo\\AutoMapper\\AutoMapperHelper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yalla215\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\yalla215\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

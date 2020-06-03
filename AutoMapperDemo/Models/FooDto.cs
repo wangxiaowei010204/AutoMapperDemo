@@ -2,9 +2,8 @@
 using AutoMapperHelper.AutoMapper;
 using System;
 
-namespace Models
+namespace Mapper.Models
 {
-
     public class FooDto
     {
         public string Name { get; set; }

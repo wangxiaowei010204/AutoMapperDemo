@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 
 namespace AutoMapperHelper.AutoMapper
 {
@@ -14,13 +13,13 @@ namespace AutoMapperHelper.AutoMapper
         {
             foreach (var assembly in assemblys)
             {
-                var atributes = assembly.GetTypes()
-                    .Where(_type => _type.GetCustomAttribute<AutoInjectAttribute>() != null)
-                    .Select(_type => _type.GetCustomAttribute<AutoInjectAttribute>());
+                var types = assembly.GetTypes().Where(_type => _type.GetCustomAttribute<MapToAttribute>() != null);
 
-                foreach (var atribute in atributes)
+                foreach (var type in types)
                 {
-                    ConvertList.Add((atribute.SourceType, atribute.TargetType));
+                    var targetType = type.GetCustomAttribute<MapToAttribute>().TargetType;
+
+                    ConvertList.Add((type, targetType));
                 }
             }
         }

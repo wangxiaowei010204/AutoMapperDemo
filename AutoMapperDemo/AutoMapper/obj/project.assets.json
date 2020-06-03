@@ -1064,11 +1064,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapper\\AutoMapperHelper.csproj",
+      "projectUniqueName": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapperDemo\\AutoMapper\\AutoMapperHelper.csproj",
       "projectName": "AutoMapperHelper",
-      "projectPath": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapper\\AutoMapperHelper.csproj",
+      "projectPath": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapperDemo\\AutoMapper\\AutoMapperHelper.csproj",
       "packagesPath": "C:\\Users\\yalla215\\.nuget\\packages\\",
-      "outputPath": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapper\\obj\\",
+      "outputPath": "D:\\wangxw\\source\\demo\\AutoMapperDemo\\AutoMapperDemo\\AutoMapper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,9 +1,9 @@
 ﻿using AutoMapperHelper.AutoMapper;
 using System;
 
-namespace Models
+namespace Mapper.Models
 {
-    [AutoInject(typeof(Foo), typeof(FooDto))]
+    [MapTo(typeof(FooDto))]
     public class Foo
     {
         public string Name { get; set; }

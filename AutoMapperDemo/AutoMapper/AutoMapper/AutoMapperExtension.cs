@@ -55,24 +55,14 @@ namespace AutoMapperHelper.AutoMapper
         {
             var factory = applicationBuilder.ApplicationServices.GetRequiredService<AutoInjectFactory>();
 
-            factory.AddAssemblys(AppDomain.CurrentDomain.GetAssemblies());
-
-            var deps = DependencyContext.Default;
-            var libs = deps.CompileLibraries;
-         
-            IEnumerable<Assembly> allAssemblies = Assembly.GetEntryAssembly().GetReferencedAssemblies().Select(Assembly.Load);
+            var libs = DependencyContext.Default.CompileLibraries.Where(x => x.Name.Contains(".Models")); ;
 
             foreach (var lib in libs)
             {
-                try
-                {
-                    var assembly = AssemblyLoadContext.Default.LoadFromAssemblyName(new AssemblyName(lib.Name));
+                var assembly = AssemblyLoadContext.Default.LoadFromAssemblyName(new AssemblyName(lib.Name));
 
-                    factory.AddAssemblys(assembly);
-                }
-                catch (Exception ex)
-                { 
-                }
+                factory.AddAssemblys(assembly);
+
             }
 
         }

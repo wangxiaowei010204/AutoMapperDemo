@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapperDemo", "AutoMapperDemo.csproj", "{5E7E3495-3E9E-4BE1-AE35-8D273CF706EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "..\Models\Models.csproj", "{4C064EC0-7604-4D0D-A919-A4BE0FCBE0E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mapper.Models", "..\Models\Mapper.Models.csproj", "{4C064EC0-7604-4D0D-A919-A4BE0FCBE0E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperHelper", "..\AutoMapper\AutoMapperHelper.csproj", "{F4006BE1-A1F6-4793-BC48-D0A31610B39C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapperHelper", "..\AutoMapper\AutoMapperHelper.csproj", "{F4006BE1-A1F6-4793-BC48-D0A31610B39C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
